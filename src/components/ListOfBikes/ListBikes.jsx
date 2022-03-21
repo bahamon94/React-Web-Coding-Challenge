@@ -1,5 +1,5 @@
 import React from 'react'
-import CardBike from '../shared/CardBike'
+import CardBike from '../shared/CardBike/CardBike'
 
 export default function ListOfGifs ({ bikes }) {
   return <div>

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {Link} from "wouter";
 
 
-import {IMAGE_NOT_AVAILABLE} from "../../constants/settings"
+import {IMAGE_NOT_AVAILABLE} from "../../../constants/settings"
 
 const CardBike = ({title, description, thumb, year, id}) => {
 

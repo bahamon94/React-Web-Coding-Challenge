@@ -3,7 +3,7 @@ import React from 'react';
 import Spinner from "../components/shared/Spinner";
 import ListOfBikes from "../components/ListOfBikes/ListBikes";
 import {useBikes} from "../hooks/useBikes";
-import Pagination from "../components/shared/Pagination";
+import Pagination from "../components/shared/Pagination/Pagination";
 
 
 const BikeContent = () => {
