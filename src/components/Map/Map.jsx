@@ -1,4 +1,4 @@
-import React,  from 'react';
+import React from 'react';
 import {MapContainer, Circle,  LayerGroup, TileLayer} from 'react-leaflet'
 import '../../index.scss'
 import "leaflet/dist/leaflet.css";

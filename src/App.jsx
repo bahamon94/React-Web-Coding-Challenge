@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { Route, Switch } from "wouter";
 
 import "./index.scss";
-import Header from "./components/Header";
+import Header from "./components/shared/Header";
 import HomePage from "./pages/BikeContent";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
 
