@@ -1,0 +1,2 @@
+export const API_URL = 'https://bikeindex.org:443/api/v3'
+export const IMAGE_NOT_AVAILABLE = 'https://us.123rf.com/450wm/pavelstasevich/pavelstasevich1811/pavelstasevich181101028/112815904-no-image-available-icon-flat-vector-illustration.jpg?ver=6'
