@@ -10,8 +10,7 @@ const fromApiResponseToBikes = apiResponse => {
 
 const generateUrlRequest = (per_page, page, query) => {
   const URL = `${API_URL}/search?page=${page}&per_page=${per_page}&stolenness=stolen`
-  !!query && URL.concat(`&query=${query}`)
-  return URL
+  return !!query ? URL.concat(`&query=${query}`) : URL
 }
 
 export default function getBikes(
@@ -21,6 +20,7 @@ export default function getBikes(
     query= ''
   } = {}) {
   const apiURL = generateUrlRequest(per_page, page, query)
+  console.log('apiURL', query, apiURL)
 
   return fetch(apiURL)
     .then((res) => res.json())

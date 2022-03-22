@@ -14,7 +14,7 @@ export function useBikes ({  query } = { query: '' }) {
   useEffect(function () {
     setLoading(true)
 
-    getBikes({ page })
+    getBikes({ page, query })
       .then( bike => {
         setBikes(bike)
         setLoading(false)

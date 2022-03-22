@@ -20,7 +20,7 @@ const CardBike = ({title, description, thumb, year, id}) => {
     <>
       <Link to={`/case/${id}`}>
         <div
-          className="max-w-5xl bg-white border-2 border-gray-300 p-5 m-5 rounded-md tracking-wide shadow-lg hover:bg-gray-100">
+          className="bg-white border-2 border-gray-300 p-5 m-5 rounded-md tracking-wide shadow-lg hover:bg-gray-100">
           <div id="header" className="flex">
             <img alt={title}
                  className="w-48 rounded-md border-2 border-gray-300"
